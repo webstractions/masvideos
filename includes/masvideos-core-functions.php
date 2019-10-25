@@ -618,6 +618,33 @@ function masvideos_is_episode_archive() {
 }
 
 /**
+ * Check is Movie Playlist posttype enable
+ *
+ * @return bool
+ */
+function masvideos_is_movie_playlist_enabled() {
+    return apply_filters( 'masvideos_is_movie_playlist_enabled', true );
+}
+
+/**
+ * Check is TV Show Playlist posttype enable
+ *
+ * @return bool
+ */
+function masvideos_is_tv_show_playlist_enabled() {
+    return apply_filters( 'masvideos_is_tv_show_playlist_enabled', true );
+}
+
+/**
+ * Check is Video Playlist posttype enable
+ *
+ * @return bool
+ */
+function masvideos_is_video_playlist_enabled() {
+    return apply_filters( 'masvideos_is_video_playlist_enabled', true );
+}
+
+/**
  * Retrieves post term ids for a taxonomy.
  *
  * @since  1.0.0
