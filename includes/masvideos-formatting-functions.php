@@ -117,7 +117,7 @@ function masvideos_sanitize_textarea( $var ) {
 function masvideos_sanitize_textarea_iframe( $var ) {
     $allowed_tags = wp_kses_allowed_html( 'post' );
     // iframe
-    $allowed_tags[''] = array(
+    $allowed_tags['iframe'] = array(
         'src'             => array(),
         'height'          => array(),
         'width'           => array(),
