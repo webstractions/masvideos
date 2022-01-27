@@ -1,8 +1,9 @@
 <?php
 /**
- * Plugin Name: MAS Videos
- * Plugin URI: https://github.com/madrasthemes/masvideos
- * Description: This is a free plugin that allows you to to create and list movies, videos and TV shows.
+ * Plugin Name: MAS Videos Redux
+ * Plugin URI: https://github.com/webstractions/masvideos
+ * Description: Based on MasVideos, looking to add more usability. This is a free plugin that allows you to to create and list movies, videos and TV shows. It contains additional fixes & additions to the original MasVideos plugin.
+ * 
  * Version: 1.2.6
  * Author: MadrasThemes
  * Author URI: https://madrasthemes.com/
