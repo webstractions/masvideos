@@ -117,12 +117,13 @@ function masvideos_sanitize_textarea( $var ) {
 function masvideos_sanitize_textarea_iframe( $var ) {
     $allowed_tags = wp_kses_allowed_html( 'post' );
     // iframe
-    $allowed_tags['iframe'] = array(
+    $allowed_tags[''] = array(
         'src'             => array(),
         'height'          => array(),
         'width'           => array(),
         'frameborder'     => array(),
         'allowfullscreen' => array(),
+        'sandbox'         => array(),
     );
     return wp_kses( $var, $allowed_tags );
 }
